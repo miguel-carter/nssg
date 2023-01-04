@@ -1,0 +1,11 @@
+doctype html
+html(lang='en')
+    include includes/head.pug
+    body
+        #header
+            h1#title !{attributes.title}
+            h2#subtitle !{attributes.subtitle}
+
+        block content
+
+    include includes/foot.pug
