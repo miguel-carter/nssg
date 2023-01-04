@@ -1,0 +1,6 @@
+extends ./layout.pug
+block content
+    #content
+        ul
+            each val, index in contents
+                li= val.title
