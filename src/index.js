@@ -1,6 +1,8 @@
 import path from "path";
 import { initializeContent, renderContents } from "./utils/utils.js";
 
+//
+
 const root = path.resolve();
 const pages = new Map();
 
